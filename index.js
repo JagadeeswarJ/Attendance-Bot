@@ -1,2 +1,2 @@
 // attendance widget
-const puppeteer = require('puppeteer')
+const puppeteer = require("puppeteer");
