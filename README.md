@@ -13,3 +13,8 @@ This bot allows VNRVJIET students to fetch their attendance information directly
 1. **`Telegraf`** - A modern Telegram Bot API framework for Node.js. It makes it easy to develop bots on Telegram.
 
 2. **`puppeteer`** -Puppeteer is a Node.js library that provides a high-level API to control headless Chrome or Chromium browsers, enabling automation of tasks like web scraping, testing, and rendering
+
+## Additional Usage
+
+Apart from the Telegram bot, the attendance can also be fetched independently using the `getAttendance` script file. This script allows a single user to fetch their attendance without interacting with the bot.
+
