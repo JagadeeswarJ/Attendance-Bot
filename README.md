@@ -17,4 +17,3 @@ This bot allows VNRVJIET students to fetch their attendance information directly
 ## Additional Usage
 
 Apart from the Telegram bot, the attendance can also be fetched independently using the `getAttendance` script file. This script allows a single user to fetch their attendance without interacting with the bot.
-
