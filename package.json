@@ -1,5 +1,5 @@
 {
-  "name": "attendance-widget",
+  "name": "attendance-bot",
   "version": "1.0.0",
   "description": "This is a widget app to display attendance without having to login\r uses flutter widget and js for scripting",
   "main": "script.js",
@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^24.0.0"
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.0.0",
+    "telegraf": "^4.16.3"
   }
 }
