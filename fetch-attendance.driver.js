@@ -1,4 +1,4 @@
-const getAttendance = require("./getAttendance");
+const getAttendance = require("./get-attendance");
 
 (async () => {
   try {
