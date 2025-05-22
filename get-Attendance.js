@@ -2,7 +2,9 @@
 const puppeteer = require("puppeteer");
 let attendanceValue = 0;
 async function getAttendance(userName) {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    headless: true,
+  });
   const page = await browser.newPage();
   await page.goto("https://automation.vnrvjiet.ac.in/eduprime3");
   // await page.screenshot({ path: "example.png" });
